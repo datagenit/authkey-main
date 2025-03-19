@@ -99,7 +99,7 @@ const StartupIndia = () => {
             
              
               <div>
-                <ul className="freeplan freesize">
+                <ul className="freeplan freesize mt-5">
                   <li>
                     <span>
                       <CheckCircle />
