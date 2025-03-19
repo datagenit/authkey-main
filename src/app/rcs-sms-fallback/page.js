@@ -36,10 +36,65 @@ const StartupIndia = () => {
         <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-lg-12  mt-4 text-center mb-3">
-              <h1 className="mb-0"> Next-Gen RCS Messaging with SMS Fallback <br/>– Deliver Every Message, Every Time!</h1>
+              <h1 className="mb-0">RCS Messaging with SMS Fallback <br/></h1>
               <p>Amazing Features of RCS Messaging with Authkey</p>
             </div>
-             
+
+            <section className="fixbgColor">
+        <div className="container">
+          <div className="row d-flex align-items-center">
+            <div className="col-lg-6 pb-4">
+              <h3 className="mt-0 mb-3">
+              How RCS Messaging with SMS Fallback Works?
+              </h3>
+              <ul className="freeplan greentick mb-4">
+                <li>
+                  <span>
+                  <CheckCircle />
+                  </span>
+                  Step 1: User sends an RCS message—Authkey’s system instantly triggers the message.
+                </li>
+                <li>
+                  <span>
+                  <CheckCircle />
+                  </span>
+                  Step 2: The system checks if the recipient’s device supports RCS messaging.
+                </li>
+                <li>
+                  <span>
+                  <CheckCircle />
+                  </span>
+                  Step 3: If RCS is available, the rich message is delivered with images, buttons & more.
+                </li>
+                <li>
+                  <span>
+                  <CheckCircle />
+                  </span>
+                  Step 4: If RCS is unavailable, an automated SMS fallback is triggered, ensuring delivery.
+                </li>
+                <li>
+                  <span>
+                  <CheckCircle />
+                  </span>
+                  Step 5: The user receives the best possible experience, and businesses track real-time delivery & engagement.
+                </li>
+              </ul>
+              <p>Experience the best Rich Media messaging. <a className="text-violet" href="#applynow">
+              Click Here <ArrowRight></ArrowRight>
+              </a></p>
+              
+            </div>
+            <div className="col-lg-6 pmtt text-center">
+              <img
+                className="img-fluid imgfull imgmbnone"
+                src="img/rcs-message.png"
+                alt="Signup form | Authkey.io"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      
             <div className="col-lg-7">
             
              
@@ -174,7 +229,7 @@ const StartupIndia = () => {
         </div>
       </section>
 
-      <section className="fixbgColor">
+      {/* <section className="fixbgColor">
         <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-lg-6 pb-4">
@@ -227,7 +282,7 @@ const StartupIndia = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section>
       <div className="container py-5">

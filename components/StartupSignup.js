@@ -253,9 +253,9 @@ class StartupSignup extends Component {
                   </div>
                 ) : null}
 
-                <div className=" w-100">
+                <div className="w-100 d-flex justify-content-center align-items-center">
                   <h6>
-                  Sign up now to receive free credit worth <span className="magictxt">Rs. 2500</span> !
+                  Sign up now<span className="magictxt"></span>
                   </h6>
                 </div>
 
