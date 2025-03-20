@@ -108,10 +108,7 @@ class StartupSignup extends Component {
       signupDone: false,
       errorMessage: "",
       bgColor: "",
-      highlighted: false,
     };
-      // Ref for the signup component
-      this.signupRef = React.createRef();
   }
 
   checkFreeEmail = () => {
