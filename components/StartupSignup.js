@@ -108,7 +108,10 @@ class StartupSignup extends Component {
       signupDone: false,
       errorMessage: "",
       bgColor: "",
+      highlighted: false,
     };
+      // Ref for the signup component
+      this.signupRef = React.createRef();
   }
 
   checkFreeEmail = () => {
@@ -232,7 +235,7 @@ class StartupSignup extends Component {
   render() {
     return (
       <div>
-        <div className="">
+        <div id="signup"  className="">
           {this.state.loginScreen ? (
             <div className="transition-shadow">
               <form

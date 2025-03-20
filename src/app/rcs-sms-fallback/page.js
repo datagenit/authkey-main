@@ -42,7 +42,7 @@ const StartupIndia = () => {
 
             <section className="fixbgColor">
         <div className="container">
-          <div className="row d-flex align-items-center">
+          <div className="row d-flex align-items-center bg-white">
             <div className="col-lg-6 pb-4">
               <h3 className="mt-0 mb-3">
               How RCS Messaging with SMS Fallback Works?
@@ -52,34 +52,34 @@ const StartupIndia = () => {
                   <span>
                   <CheckCircle />
                   </span>
-                  Step 1: User sends an RCS message—Authkey’s system instantly triggers the message.
+                  <b style={{ whiteSpace: 'nowrap',color:'#3c3664'}}>Step 1:</b> User sends an RCS message—Authkey’s system instantly triggers the message.
                 </li>
                 <li>
                   <span>
                   <CheckCircle />
                   </span>
-                  Step 2: The system checks if the recipient’s device supports RCS messaging.
+                  <b style={{ whiteSpace: 'nowrap',color:'#3c3664'}}>Step 2: </b>The system checks if the recipient’s device supports RCS messaging.
                 </li>
                 <li>
                   <span>
                   <CheckCircle />
                   </span>
-                  Step 3: If RCS is available, the rich message is delivered with images, buttons & more.
+                  <b style={{ whiteSpace: 'nowrap',color:'#3c3664'}}>Step 3: </b> If RCS is available, the rich message is delivered with images, buttons & more.
                 </li>
                 <li>
                   <span>
                   <CheckCircle />
                   </span>
-                  Step 4: If RCS is unavailable, an automated SMS fallback is triggered, ensuring delivery.
+                  <b style={{ whiteSpace: 'nowrap',color:'#3c3664'}}>Step 4: </b> If RCS is unavailable, an automated SMS fallback is triggered, ensuring delivery.
                 </li>
                 <li>
                   <span>
                   <CheckCircle />
                   </span>
-                  Step 5: The user receives the best possible experience, and businesses track real-time delivery & engagement.
+                  <b style={{ whiteSpace: 'nowrap',color:'#3c3664'}}>Step 5: </b> The user receives the best possible experience, and businesses track real-time delivery & engagement.
                 </li>
               </ul>
-              <p>Experience the best Rich Media messaging. <a className="text-violet" href="#applynow">
+              <p>Experience the best Rich Media messaging. <a className="text-violet" href="#signup">
               Click Here <ArrowRight></ArrowRight>
               </a></p>
               
@@ -95,7 +95,7 @@ const StartupIndia = () => {
         </div>
       </section>
       
-            <div className="col-lg-7">
+            <div className="col-lg-7 pr-6 pb-4">
             
              
               <div>
@@ -185,7 +185,7 @@ const StartupIndia = () => {
                   Never Lose a Message with RCS + Automated SMS Fallback
                   </h2>
                   <p>
-                  Rich Communication Services (RCS) Sends a message with <b>rich media, interactive buttons, and real-time engagement</b>. However, not all users have <b>RCS-enabled devices</b> or active internet connections. So, what happens if an RCS message can't be delivered?
+                  Rich Communication Services (RCS) sends a message with <b>rich media, interactive buttons, and real-time engagement</b>. However, not all users have <b>RCS-enabled devices</b> or active internet connections. So, what happens if an RCS message can't be delivered?
                   </p>
                   <p>That’s where <b>Automated SMS Fallback</b> comes in! If a recipient’s device does not support RCS or lacks an internet connection, the system <b>automatically switches to SMS</b>, ensuring your message is always delivered.
                   </p>
